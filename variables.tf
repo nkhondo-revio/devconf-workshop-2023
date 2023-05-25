@@ -3,6 +3,8 @@
 # Declares any of the required inputs for the deployment.
 ##
 
-# variable "function_name" {
-
-# }
+variable "function_name" {
+  type        = string
+  description = "The name of the lambda function."
+  default     = "nk-devconf-chatgpt"
+}
